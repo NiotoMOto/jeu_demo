@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jeu_interactif</title>
+	<link rel="stylesheet" type="text/css" href="style_game.css">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Muli" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+<body>
+	<div class="game">
+		<div class="fleches"><i id="haut" class="fas fa-arrow-alt-circle-up fa-3x"><figcaption id="description_haut">entrer dans le bâtiment</figcaption></i><i id="gauche" class="fas fa-arrow-alt-circle-left fa-3x"><figcaption id="description_gauche">aller à gauche (poubelles)</figcaption></i></div>
+		<div id="screen"></div>
+		<div class="fleches"><i id="bas" class="fas fa-arrow-alt-circle-down fa-3x"><figcaption id="description_bas">faire demi-tour</figcaption></i><i id="droit" class="fas fa-arrow-alt-circle-right fa-3x"><figcaption id="description_droite">aller à droite (banc)</figcaption></i></div>
+	</div>
+	<div class="game">
+		<div id="stats">
+			<p>Santé : <span id="sante">bonne</span></p>
+			<p>Condition physique : <span id="force">normale</span></p>
+			<p>Vêtements : <span id="habits">propres</span></p>
+		</div>
+		<div id="texte"></div>
+		<div id="objects">
+			<p>Votre sac comptient :</p> 
+			<p><span id="description">rien pour l'instant</span></p>
+		</div>
+	</div>
+	<script src="game.js" type="text/javascript"></script>
+</body>
+</html>

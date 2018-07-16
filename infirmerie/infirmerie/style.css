@@ -1,0 +1,127 @@
+body {
+	background-image:radial-gradient(pink, red);
+	height: 100%;
+}
+
+header {
+	margin: 5%;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 3em;
+	color: blue;
+}
+
+#demo {
+    display: block;
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: blue;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#img_center {
+	margin: 2%;
+	margin-bottom: 8%;
+	height: 350px;
+	width: 550px;
+}
+
+
+
+button {
+	font-family: 'Bree Serif', serif;
+	height: 50px;
+	width: 150px;
+	border: 2px;
+}
+
+#anim1 {
+	animation: animation_first 3s;
+}
+
+#anim2 {
+	animation: animation_second 3s;
+}
+
+#anim3 {
+	animation: animation_third 3s;
+}
+
+@keyframes animation_first {
+    0% {
+        transform: translateX(-400px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@-webkit-keyframes animation_first {
+    0% {
+        transform: translateX(-400px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes animation_second {
+    0% {
+        transform: translateY(200px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes animation_second {
+    0% {
+        transform: translateY(200px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes animation_third {
+    0% {
+        transform: translateX(400px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@-webkit-keyframes animation_third {
+    0% {
+        transform: translateX(400px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}

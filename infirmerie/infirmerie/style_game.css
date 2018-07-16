@@ -1,0 +1,63 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.game {
+	display: flex;
+	flex-direction: row;
+}
+
+#screen {
+	height: 600px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+i {
+	width: 50px;
+	height: 50px;
+}
+
+.fleches {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 150px;
+}
+
+#bas {
+
+}
+
+#haut {
+
+}
+
+#texte {
+	margin-top: 150px;
+	font-family: 'Muli', sans-serif;
+	width: 900px;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+
+span {
+	font-weight: bold;
+}
+
+figcaption {
+	font-weight: normal;
+	font-size: 0.5em;
+}
+
+#objects {
+	font-family: 'Fira Sans', sans-serif;
+	padding: 2%;
+}
+
+#stats {
+	font-family: 'Fira Sans', sans-serif;
+	padding: 2%;
+}
