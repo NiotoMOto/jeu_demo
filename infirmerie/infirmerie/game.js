@@ -26,7 +26,7 @@ function clic4() {
 }
 
 function clic1() {
-   ecran.style.backgroundImage = "url('images/personnages/docteur.jpg')";
+//    ecran.style.backgroundImage = "url('images/personnages/docteur.jpg')";
    	if (habits.textContent = "propres") {
    		document.getElementById("texte").textContent = "Bonjour Diane, je suis le docteur Derek, vous m'avez l'air en forme aujourd'hui. Je vais vous poser une question : Il y a un nouveau né dans l'aile de pédiatrie, son pouls est de 90 battements par minute, est-ce normal ? ";
 	}
@@ -36,8 +36,10 @@ function clic1() {
 	
    texte_bas.textContent = "OUI";
    bas.id = "question1_oui";
+   bas.onclick = clic5;
    texte_haut.textContent = "NON";
    haut.id = "question1_non";
+   haut.onclick = clic6;
    texte_gauche.textContent = "";
    texte_droite.textContent = "";
 }
@@ -60,5 +62,5 @@ haut.addEventListener("click", clic1);
 bas.addEventListener("click", clic2);
 droite.addEventListener("click", clic3);
 gauche.addEventListener("click", clic4);
-reponse1.addEventListener("click", clic5);
-reponse2.addEventListener("click", clic6);
+// reponse1.addEventListener("click", clic5);
+// reponse2.addEventListener("click", clic6);
